@@ -17,11 +17,11 @@ document.getElementById('episode--import').innerHTML = `
 <ol class="breadcrumb">
 	<li class="breadcrumb-item"> <a href="/">Inicio</a></li>
 	<li class="breadcrumb-item"> <a href="`+anime_link+`">`+anime+`</a></li>
-	<li class="breadcrumb-item">Episodio `+episodio+`</li>
+	<li class="breadcrumb-item">Episodio `+episodio_number+`</li>
 </ol>
 <div class="episode-texts">
 	<span class="episode-title">`+anime+`</span>
-	<span class="episode-number">Episodio `+episodio+`</span>
+	<span class="episode-number">Episodio `+episodio_number+`</span>
 </div>
 <div class="cv-player">
 <div class="cv-player-body">

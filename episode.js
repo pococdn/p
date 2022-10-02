@@ -13,7 +13,7 @@ if(siguiente_available == false) {var siguiente_available = '';}else{var siguien
         sig.
     </a>
 `};
-document.getElementById('anime--import').innerHTML = `
+document.getElementById('episode--import').innerHTML = `
 <ol class="breadcrumb">
 	<li class="breadcrumb-item"> <a href="/">Inicio</a></li>
 	<li class="breadcrumb-item"> <a href="`+anime_link+`">`+anime+`</a></li>

@@ -18,7 +18,7 @@ for(e = 1;e < titulo_episodio.length; e++){
                     </div></li></a>
     `;
 };
-if(episodio[0] != undefined){
+if(titulo_episodio[0] != undefined){
     if(episodio[1].toString() = undefined){
     episodio[episodio.length] = `
 <a href="#"><li class="link-episode border">

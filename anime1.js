@@ -20,7 +20,7 @@ for(e = 1;e < titulo_episodio.length; e++){
 };
 if(titulo_episodio[0] != undefined){
     if(episodio[1] = undefined){
-    episodio[titulo_episodio.length] = `
+    var prox_episodio = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
@@ -31,7 +31,7 @@ if(titulo_episodio[0] != undefined){
                     </div></li></a>
 `;
 }else{
-    episodio[titulo_episodio.length] = `
+    var prox_episodio = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
@@ -60,6 +60,6 @@ document.getElementById('anime--import').innerHTML = `
 <div class="status--anime `+estado+`"></div>
 <div class="episode-text">Lista de episodios</div>
 <div class="episode-container">
-    <ul class="list-episodes">`+episodio.toString().replace(new RegExp(",","gi"),"")+`</ul>
+    <ul class="list-episodes">`+episodio.toString().replace(new RegExp(",","gi"),"")+prox_episodio+`</ul>
 </div>
 `;

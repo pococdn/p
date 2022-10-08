@@ -18,7 +18,9 @@ for(e = 1;e < titulo_episodio.length; e++){
                     </div></li></a>
     `;
 };
-episodio[episodio.length] = `
+if(episodio[0] != undefined){
+    if(episodio[1].toString() = undefined){
+    episodio[episodio.length] = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
@@ -28,6 +30,19 @@ episodio[episodio.length] = `
                         <span class="episode">Episodio `+(episodio.length+1)+`</span>
                     </div></li></a>
 `;
+}else{
+    episodio[episodio.length] = `
+<a href="#"><li class="link-episode border">
+                    <div class="episode-img">
+                        <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
+                    </div>
+                    <div class="content">
+                        <strong class="sinopsis">`+titulo_episodio[0]+`</strong>
+                        <span class="episode">Episodio `+episodio.length+`</span>
+                    </div></li></a>
+`;
+}}
+
 document.getElementById('anime--import').innerHTML = `
 <ol class="breadcrumb">
 <li class="breadcrumb-item"> <a href="/">Inicio</a></li>

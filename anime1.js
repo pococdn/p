@@ -26,7 +26,7 @@ if(episodio[0] != undefined){
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
                     </div>
                     <div class="content">
-                        <strong class="sinopsis">`+titulo_episodio[0]+`</strong>
+                        <strong class="sinopsis">SE ESTRENA EL `+titulo_episodio[0]+`</strong>
                         <span class="episode">Episodio `+(episodio.length+1)+`</span>
                     </div></li></a>
 `;
@@ -37,7 +37,7 @@ if(episodio[0] != undefined){
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
                     </div>
                     <div class="content">
-                        <strong class="sinopsis">`+titulo_episodio[0]+`</strong>
+                        <strong class="sinopsis">SE ESTRENA EL `+titulo_episodio[0]+`</strong>
                         <span class="episode">Episodio `+episodio.length+`</span>
                     </div></li></a>
 `;

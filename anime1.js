@@ -18,14 +18,14 @@ for(e = 1;e < titulo_episodio.length; e++){
                     </div></li></a>
     `;
 };
-if(titulo_episodio[0] != undefined){
+if(prox_epi != undefined){
     var prox_episodio = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
                     </div>
                     <div class="content">
-                        <strong class="sinopsis">SE ESTRENA EL `+titulo_episodio[0]+`</strong>
+                        <strong class="sinopsis">SE ESTRENA EL `+prox_epi+`</strong>
                         <span class="episode">Episodio `+episodio.length+`</span>
                     </div></li></a>
 `};

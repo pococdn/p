@@ -1,6 +1,4 @@
-document.getElementsByClassName('sidebar left').innerHTML = '';
-document.getElementsByClassName("blog left")[0].style.width = "100% !important";
-document.getElementsByClassName("main")[0].style.background = "none !important";
+$('.sidebar.left').innerHTML = '';
 
 if(anterior_available == false) {var anterior_available = '';}else{var anterior_available = `
 <a href="`+anterior_link+`" class="cv-player-trigger">

@@ -25,7 +25,7 @@ episodio[episodio.length] = `
                     </div>
                     <div class="content">
                         <strong class="sinopsis">`+titulo_episodio[0]+`</strong>
-                        <span class="episode">Episodio `+episodio.length+1+`</span>
+                        <span class="episode">Episodio `+(episodio.length+1)+`</span>
                     </div></li></a>
 `;
 document.getElementById('anime--import').innerHTML = `

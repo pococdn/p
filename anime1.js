@@ -20,7 +20,7 @@ for(e = 1;e < titulo_episodio.length; e++){
 };
 if(titulo_episodio[0] != undefined){
     if(episodio[1] = undefined){
-    episodio[episodio.length] = `
+    episodio[titulo_episodio.length] = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
                         <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>

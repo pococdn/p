@@ -19,7 +19,7 @@ for(e = 1;e < titulo_episodio.length; e++){
     `;
 };
 if(titulo_episodio[0] != undefined){
-    if(episodio[1].toString() = undefined){
+    if(episodio[1] = undefined){
     episodio[episodio.length] = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">

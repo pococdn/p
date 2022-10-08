@@ -19,18 +19,6 @@ for(e = 1;e < titulo_episodio.length; e++){
     `;
 };
 if(titulo_episodio[0] != undefined){
-    if(episodio[1] = undefined){
-    var prox_episodio = `
-<a href="#"><li class="link-episode border">
-                    <div class="episode-img">
-                        <div class="banner-img"><img src="https://i.imgur.com/nzVuY3z.jpeg"></div>
-                    </div>
-                    <div class="content">
-                        <strong class="sinopsis">SE ESTRENA EL `+titulo_episodio[0]+`</strong>
-                        <span class="episode">Episodio `+(episodio.length+1)+`</span>
-                    </div></li></a>
-`;
-}else{
     var prox_episodio = `
 <a href="#"><li class="link-episode border">
                     <div class="episode-img">
@@ -40,8 +28,7 @@ if(titulo_episodio[0] != undefined){
                         <strong class="sinopsis">SE ESTRENA EL `+titulo_episodio[0]+`</strong>
                         <span class="episode">Episodio `+episodio.length+`</span>
                     </div></li></a>
-`;
-}};
+`};
 
 document.getElementById('anime--import').innerHTML = `
 <ol class="breadcrumb">

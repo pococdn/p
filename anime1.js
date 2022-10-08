@@ -41,7 +41,7 @@ if(titulo_episodio[0] != undefined){
                         <span class="episode">Episodio `+episodio.length+`</span>
                     </div></li></a>
 `;
-}}
+}};
 
 document.getElementById('anime--import').innerHTML = `
 <ol class="breadcrumb">

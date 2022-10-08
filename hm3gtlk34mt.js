@@ -1,5 +1,3 @@
-$('.sidebar.left').innerHTML = '';
-
 if(anterior_available == false) {var anterior_available = '';}else{var anterior_available = `
 <a href="`+anterior_link+`" class="cv-player-trigger">
 <svg viewBox="0 0 24 24">

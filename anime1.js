@@ -28,7 +28,7 @@ if(prox_epi != undefined){
                         <strong class="sinopsis">SE ESTRENA EL `+prox_epi+`</strong>
                         <span class="episode">Episodio `+episodio.length+`</span>
                     </div></li></a>
-`};
+`}else{var prox_episodio = ''};
 
 document.getElementById('anime--import').innerHTML = `
 <ol class="breadcrumb">

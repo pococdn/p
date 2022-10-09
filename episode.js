@@ -80,3 +80,4 @@ document.getElementById('episode--import').innerHTML = `
 
 </div>
 `;
+document.title = anime+' Episodio '+episodio_number+' - NinoSenpai';
